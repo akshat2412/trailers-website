@@ -1,0 +1,94 @@
+@media screen and (min-width: 19.9375rem) {
+  /* Text Elements */
+
+  h1.heading-1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-2 {
+    display: block;
+    background-color: #000;
+  }
+
+  body > .row.row-1 {
+    margin: 0 0 30px;
+  }
+
+  body > .row > [class*='small-'].column-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+    -ms-flex-align: center;
+
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+            align-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+  }
+
+  a.responsive-picture.picture-link-11 {
+    margin: 20px 30px 30px;
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 150px;
+       -moz-box-flex: 0;
+        -ms-flex: 0 0 150px;
+            flex: 0 0 150px;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-1 {
+    -ms-flex-pack: center;
+
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
+  }
+
+  body > .row.row-1 {
+    max-width: 100vw;
+  }
+
+  a.responsive-picture.picture-link-11 {
+    margin: 20px 30px 30px;
+    min-width: 0;
+    max-width: 220px;
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 200px;
+       -moz-box-flex: 0;
+        -ms-flex: 0 0 200px;
+            flex: 0 0 200px;
+  }
+}
